@@ -1,0 +1,132 @@
+var xPos = 52;
+var yPos = 249;
+
+var x1Pos = 152;
+var y2Pos = 15;
+
+var x3Pos = 368;
+var y4Pos = -3;
+
+draw = function() {
+    
+    xPos += 3;
+    yPos -= 3;
+    
+    x1Pos += 3;
+    y2Pos += 3;
+    
+    x3Pos -= 3;
+    y4Pos += 3;
+
+    //nightSky
+    background(17, 0, 115);
+    fill(255, 9, 0);
+    
+    //moon
+     fill(255, 255, 255);
+ ellipse(275, 77, 100, 100);
+    
+    //star1
+    fill(255, 0, 230);
+    ellipse(xPos, yPos, 15, 15);   
+    
+    //star2
+    fill(255, 0, 230);
+    ellipse(x1Pos, y2Pos, 15, 15);
+    
+    //star3
+    fill(255, 0, 230);
+    ellipse(x3Pos, y4Pos, 15, 15);
+    
+    //building1
+    fill(247, 177, 0);   
+    rect(0, 278, 39, 123);
+    noStroke();
+    
+    //building2
+    var c1;
+    var c2;
+    var c3; 
+    
+    fill(255, 15, 15);   
+    rect(38, 208, 39, 193);
+    noStroke();
+    triangle(78, 208, 37, 208, 57, 196);
+    
+    //building3
+    fill(247, 177, 0);   
+    rect(77, 242, 39, 159);
+    noStroke();
+    
+    //building4
+    var c1;
+    var c2;
+    var c3; 
+    
+    fill(255, 15, 15);   
+    rect(116, 261, 40, 153);
+    noStroke();
+    triangle(78, 208, 37, 208, 57, 196);
+    
+    //building5
+    fill(247, 177, 0);   
+    rect(156, 209, 41, 192);
+    triangle(156, 210, 201, 211, 194, 124);
+    noStroke();
+    
+    //building6
+    var c1;
+    var c2;
+    var c3; 
+    
+    fill(255, 15, 15);   
+    rect(197, 163, 39, 243);
+    noStroke();
+    triangle(78, 208, 37, 208, 57, 196);
+    
+    //building8
+    fill(247, 177, 0);   
+    rect(235, 225, 39, 178);
+    noStroke();
+    
+    //building9
+    var c1;
+    var c2;
+    var c3; 
+    
+    fill(255, 15, 15);   
+    rect(274, 208, 39, 193);
+    noStroke();
+    triangle(314, 208, 274, 208, 293, 196);
+    
+    
+    //building10
+    var c1;
+    var c2;
+    var c3; 
+    
+    fill(255, 15, 15);   
+    rect(37, 208, 41, 193);
+    noStroke();
+    triangle(78, 208, 37, 208, 57, 196);
+    
+    //building11
+    fill(247, 177, 0);   
+    rect(313, 292, 43, 125);
+    noStroke();
+    
+     //building12
+    var c1;
+    var c2;
+    var c3; 
+    
+    fill(255, 15, 15);   
+    rect(356, 261, 45, 153);
+    noStroke();
+    triangle(78, 208, 37, 208, 57, 196);
+    
+   
+    fill(0);
+    rect(0, 350, 466, 51);
+    
+};
